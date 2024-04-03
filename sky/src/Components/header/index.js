@@ -21,9 +21,9 @@ const Header = () => {
                 userLoggedIn
                     ?
                     <> 
-                    {/*<div> 
-                    <h1 className="logo"><i class="fa-brands fa-skyatlas"></i>   SkyDetect</h1>
-                   </div> */}
+                    <div> 
+                     <i class="fa-brands fa-skyatlas"></i>
+                   </div> 
                     <ul className='flex'>
                         <li>
                         <Link to="/">Home</Link>

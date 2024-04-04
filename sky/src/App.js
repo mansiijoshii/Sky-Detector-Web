@@ -5,6 +5,7 @@ import Header from "./components/header";
 import Home from "./components/home";
 import About from "./components/about";
 import Upload from "./components/upload";
+import Mask from "./components/mask";
 
 import { AuthProvider } from "./contexts/authContext";
 import { useRoutes } from "react-router-dom";
@@ -35,6 +36,10 @@ function App() {
       path: "/upload",
       element: <Upload/>,
    },
+   {
+    path: "/mask",
+    element: <Mask/>,
+ },
   ];
   let routesElement = useRoutes(routesArray);
   return (

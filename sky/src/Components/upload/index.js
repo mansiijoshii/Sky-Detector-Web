@@ -35,7 +35,7 @@ const Upload = () => {
             alt="Image"
           />
         ) : (
-          <img src={img} style={{ height: "40%", width: "25%" }} alt="" />
+          <img src={img} style={{ height: "40%", width: "25%" }} alt="Img" />
         )}
         <input type="file" onChange={handleImageChange} ref={inputRef} />
       </div>

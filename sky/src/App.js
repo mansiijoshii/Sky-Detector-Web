@@ -1,11 +1,11 @@
-import Login from "./components/auth/login";
-import Register from "./components/auth/register";
+import Login from "./Components/auth/login";
+import Register from "./Components/auth/register";
 
-import Header from "./components/header";
-import Home from "./components/home";
-import About from "./components/about";
-import Upload from "./components/upload";
-import Mask from "./components/mask";
+import Header from "./Components/header";
+import Home from "./Components/home";
+import About from "./Components/about";
+import Upload from "./Components/upload";
+import Mask from "./Components/mask";
 
 import { AuthProvider } from "./contexts/authContext";
 import { useRoutes } from "react-router-dom";
@@ -29,17 +29,17 @@ function App() {
       element: <Home />,
     },
     {
-       path: "/about",
-       element: <About/>,
+      path: "/about",
+      element: <About />,
     },
     {
       path: "/upload",
-      element: <Upload/>,
-   },
-   {
-    path: "/mask",
-    element: <Mask/>,
- },
+      element: <Upload />,
+    },
+    {
+      path: "/mask",
+      element: <Mask />,
+    },
   ];
   let routesElement = useRoutes(routesArray);
   return (
@@ -51,8 +51,6 @@ function App() {
 }
 
 export default App;
-
-
 
 /*import React, { useEffect, useState } from "react";
 //import { BrowserRouter } from 'react-router-dom';

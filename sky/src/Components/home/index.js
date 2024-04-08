@@ -1,7 +1,7 @@
 import React from "react";
 import { useAuth } from "../../contexts/authContext";
 import { useNavigate } from "react-router-dom";
-import backimg from "../Assets/backimg.png";
+import bg from "../Assets/bg.png";
 
 const Home = () => {
   //const { currentUser } = useAuth()
@@ -11,25 +11,28 @@ const Home = () => {
 
     <div
       className="w-full h-screen bg-no-repeat bg-cover"
-      style={{ backgroundImage: `url(${backimg})` }}
+      style={{ backgroundImage: `url(${bg})` }}
     >
-      <div className="w-full h-full flex flex-col justify-start ml-[100px] mt-60 space-y-10">
+      <div className="w-full h-1000 flex flex-col justify-left items-center mt-60 space-y-10">
         <div className="font-poppins">
-          <h1> SKY</h1>
-          <h1>DETECTOR</h1>
+          <p className="text-[#1B3757] text-6xl font-bold italic ml-20">
+            SKY DETECTOR
+          </p>
+          {/* <h1 className="text-[#1B3757]">DETECTOR</h1> */}
         </div>
-        <div className="ml-3">
-          <p className="font-rose">FROM DUSK TILL DAWN</p>
+        <div className="text-[#1B3757]">
+          <p className="font-rose ">FROM DUSK TILL DAWN</p>
           <p className="font-rose">OUR SKY DETECTOR GUIDES YOUR GAZE</p>
         </div>
+
         <div className="ml-4">
           <button
             onClick={() => {
               navigate("/upload");
             }}
-            className='button type="button" class="text-white bg-gradient-to-r from-teal-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2"'
+            className='button type = "button" class=" text-white bg-gradient-to-r from-[#2A4E77] to-[#7EA1CA] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-[#2A4E77] dark:focus:ring-[#7EA1CA] shadow-lg shadow-[#7EA1CA] dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 "'
           >
-            Get Started{" "}
+            Get Started
           </button>
         </div>
       </div>

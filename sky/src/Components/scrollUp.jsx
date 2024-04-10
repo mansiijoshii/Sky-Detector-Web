@@ -31,7 +31,7 @@ const ScrollToTopButton = () => {
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed bottom-20 right-10 z-50 bg-transparent border-none rounded-full w-12 h-12 flex justify-center items-center ${
+      className={`fixed bottom-20 right-10 z-50 bg-[#1B3757] border-none rounded-full w-12 h-12 flex justify-center items-center ${
         isVisible ? "visible" : "invisible"
       }`}
     >

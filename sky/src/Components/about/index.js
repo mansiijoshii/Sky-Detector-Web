@@ -52,14 +52,14 @@ const About = () => {
           <div data-aos="flip-up" className="card ml-5">
             <ol>
               <li>
-                <h2 className="font-bold">Sky Pixel Detection: </h2>
+                <p className="font-bold text-10">Sky Pixel Detection: </p>
                 <p className="font-rose text-[50rem]">
                   Our app accurately identifies sky pixels in user-uploaded
                   photos, allowing for precise analysis of available sky view.
                 </p>
               </li>
               <li>
-                <h2 className="font-bold">Sun Position Calculation: </h2>
+                <p className="font-bold text-10">Sun Position Calculation: </p>
                 <p className="font-rose text-[50rem] ">
                   Sky Detector calculates the position of the sun based on the
                   user's location and time, ensuring accurate solar panel angle
@@ -67,7 +67,7 @@ const About = () => {
                 </p>
               </li>
               <li>
-                <h2 className="font-bold">Optimal Solar Panel Angles:</h2>
+                <p className="font-bold text-10">Optimal Solar Panel Angles:</p>
                 <p className="font-rose text-[50rem] ">
                   We provide users with recommendations for the best tilt angle
                   of solar panels to maximize energy capture efficiency.

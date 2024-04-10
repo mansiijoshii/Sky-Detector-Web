@@ -32,7 +32,7 @@ const Header = () => {
           </ul>
           <button
             onClick={handlesignout}
-            className="text-white bg-gradient-to-r from-[#2A4E77] to-[#7EA1CA] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-[#2A4E77] dark:focus:ring-[#2A4E77] shadow-lg shadow-[#7EA1CA] dark:shadow-lg dark:shadow-teal-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+            className="text-white mt-1.5 bg-gradient-to-r from-[#2A4E77] to-[#7EA1CA] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-[#2A4E77] dark:focus:ring-[#2A4E77] shadow-lg shadow-[#7EA1CA] dark:shadow-lg dark:shadow-teal-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
           >
             Logout
           </button>

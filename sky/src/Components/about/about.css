@@ -1,0 +1,18 @@
+.card {
+  width: 600px; /* Set the desired width for the card */
+  padding: 40px; /* Adjust padding as needed */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Set the background color with transparency */
+  border-radius: 10px; /* Optional: Adjust border radius */
+  backdrop-filter: blur(10px); /* Apply blur effect to the background */
+}
+
+.card p {
+  font-size: 1.2rem; /* Adjust font size as needed */
+  line-height: 1.4; /* Adjust line height as needed */
+  margin: 0; /* Remove default margin */
+}

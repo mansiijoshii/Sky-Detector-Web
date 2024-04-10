@@ -40,7 +40,7 @@ const Mask = () => {
         </div>
         <div className="flex flex-col text-xl font-[#2A4E77] items-center mb-[40px]  w-full ">
           <h2 className="mb-[50px] text-[#1B3757] italic font-lg">
-            Image Mask
+            Image-Mask
           </h2>
           <img src={maskedImage} alt="Masked" />
         </div>

@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import bg from "../Assets/bg.png";
 import "./about.css";
 import AOS from "aos";
-import "aos/dist/aos.css"; // Import AOS CSS
+import "aos/dist/aos.css";
+import ScrollToTopButton from "../scrollUp";
 
 const About = () => {
   useEffect(() => {
@@ -76,6 +77,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <ScrollToTopButton />
     </div>
   );
 };

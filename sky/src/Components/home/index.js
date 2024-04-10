@@ -20,10 +20,13 @@ const Home = () => {
           </p>
           {/* <h1 className="text-[#1B3757]">DETECTOR</h1> */}
         </div>
-        <div className="text-[#1B3757]">
-          <p className="font-rose ">FROM DUSK TILL DAWN</p>
-          <p className="font-rose">OUR SKY DETECTOR GUIDES YOUR GAZE</p>
+        <div className="mr-[30px] text-[#1B3757]">
+          <p className="font-rose text-[1.1rem] ">
+            Where innovation meets the horizon:
+          </p>
+          <p className="font-rose text-[1.1rem] ">Sky Detector Solar Panels</p>
         </div>
+
 
         <div className="ml-4">
           <button
